@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background: rgb(236, 212, 235); */
+    background: linear-gradient(180deg, #ecd4eb 0%, rgba(255, 182, 191, 1) 100%);
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    font-family: 'Cormorant', serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto; /* Центрируем контейнер на странице */
+    padding: 0 20px; /* Добавляем отступы по бокам контейнера для адаптивности */
+}
+
+h1 {
+    font-size: 64px;
+    
+}
+
+.book {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    min-height: 441px;
+    height: 100%;
+    background: white;
+    border-radius: 30px;
+    margin-top: 97px;
+    padding: 20px; /* Добавляем внутренние отступы для адаптивности */
+}
+
+.book-text h1 {
+    margin-top: 74px;
+}
+
+.book-img{ 
+    margin-left: 35px; 
+    margin-top: 30px;
+} 
+
+.book-button {
+    display: flex;
+    justify-content: center; /* Центрируем кнопку по горизонтали */
+    align-items: center; /* Центрируем текст по вертикали */
+    flex-wrap: wrap;
+}
+
+.book-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.book h1 {
+    max-width: 596px;
+    font-weight: 700;
+}
+
+.book p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.btn-1 {
+    width: 245px;
+    height: 55px;
+    border-radius: 30px;
+    border: 1px solid #000;
+    background: #FFE9EC;
+    margin-right: 50px; 
+    margin-top: 37px; 
+    text-align: center; 
+    line-height: 55px; 
+}
+
+
+
+
+header{
+    margin-top: 35px;
+}
+
+
+
+.site-signup{ 
+    width: 490px; 
+    max-width: 100%;
+    background-color: white; 
+    text-align: center; 
+    padding-top: 114px; 
+    padding-bottom: 114px; 
+    box-sizing: border-box; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-bottom: 20px; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+.site-login{ 
+ 
+    width: 490px; 
+    max-width: 100%;
+
+    background-color: white; 
+    text-align: center; 
+    padding-top: 70px; 
+    box-sizing: border-box; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+} 
+
+.row > *{ 
+    /* padding-left: 0 !important ;  */
+    /* padding-right: 0 !important ;  */
+} 
+.forms{ 
+    padding-bottom: 10px; 
+} 
+.col-lg-5 button{ 
+    width: 344px; 
+    max-width: 100%;
+    height: 69px; 
+    border: 1px solid #000;
+    background: #FFE9EC; 
+    border-radius: 30px; 
+    font-size: 18px; 
+    font-weight: 500; 
+    font-family: 'Cormorant', serif; 
+    margin-top: 35px; 
+    color: #000; 
+    margin-bottom: 35px;
+} 
+
+img{
+    max-width: 100%;
+}
+
+
+/* style.css */
+.form-control { 
+    /* height: 40px;  */
+    width: 100%; 
+    border: none; 
+    border-bottom: 1px solid black; 
+    border-radius: 0 !important;
+    font-family: 'Cormorant', serif; 
+    font-size: 17px; 
+}
+
+
+.card-header{
+    background:#FFE9EC;
+}
+
+
+.col-lg-5{ 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 350px; 
+} 
+
+ 
+.btn-link { 
+    border: #000; 
+} 
+.pp{ 
+    margin-top: 37px; 
+} 
+ 
+@media (min-width: 992px){ 
+  .col-lg-1 { 
+    flex: 0 0 auto; 
+    width: 100%;   
+} 
+} 
+ 
+.btn{ 
+    padding: 0; 
+} 
+.notes-create{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+     
+} 
+.notes-update{ 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+     
+} 
+.btn-success{ 
+    width: 245px; 
+    height: 55px; 
+    border-radius: 30px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+    margin: 0 auto; 
+    display: block; 
+    margin-top: 37px; 
+    text-align: center; 
+    line-height: 55px;
+} 
+.btn-success:hover { 
+ animation: bounce 1s; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+}
+.btn-success:active { 
+    animation: bounce 1s; 
+       border: 1px solid #000; 
+       background: #FBF5F5 !important; 
+       color: #000; 
+   }
+.btn-primary{ 
+    padding: 5px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+    margin-right: 10px;
+} 
+.btn-danger{
+    padding: 5px;
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+}
+.btn-primary:hover{ 
+    padding: 5px; 
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #0d6efd; 
+    border: 1px solid #0d6efd; 
+} 
+.btn-danger:hover{
+    padding: 5px;
+    border: 1px solid #000; 
+    background: #FBF5F5; 
+    color: #000; 
+    color: #dc3545;
+    border: 1px solid #dc3545; 
+}
+
+.nav-link {
+    color: #000 !important;
+}
+
+
+
+
+
+@media (max-width: 1024px) {
+    .book-img{
+        display: none;
+    }
+    .book{
+        margin-top: 0px;
+    }
+    /* .btn-1{
+        margin-right: 0px;
+    } */
+}
+
+@media (max-width: 500px) {
+
+    .btn-1{
+        margin-right: 0px;
+    }
+}
+
+
+
+
